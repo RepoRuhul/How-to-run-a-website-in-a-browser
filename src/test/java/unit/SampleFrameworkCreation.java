@@ -9,6 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public final class SampleFrameworkCreation {
 //	Assertion assertion;
+//	we are creating a branch
 
 	@Test
 	public void webTest() throws InterruptedException {
@@ -33,8 +34,6 @@ public final class SampleFrameworkCreation {
 
 //		WebElement element = driver.findElement(By.id("gh-shop-a"));
 //		element.click();
-
-		Thread.sleep(10000);
 
 		driver.quit();
 
